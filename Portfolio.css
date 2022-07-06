@@ -1,53 +1,88 @@
+* {
+    box-sizing: border-box !important;
+    font-family: 'Times New Roman', Times, serif;
+}
 body{
-    background-color:black;
+    background-color: #dddddd;
+    margin: 0;
+    width: 100%;
+}
+.design {
+    width: 90%;
+    height: 80vh;
+    margin: 10vh 5%;
+    background-color: #ffffff;
+    box-shadow: 0 10px 20px 0 rgba(0,0,0,0.35);
+    display: flex;
+}
+.content {
+    width: 50%;
+    height: 100%;
+    position: relative;
+}
+.image {
+    width: 50%;
+    height: 100%;
+}
+.image img {
+    width: 100%;
+    height: 100%;
+}
+nav {
+    display: flex;
+    width: 100%;
+    justify-content: right;
     margin-top: 0;
 }
-#image{
-    background-image: url("file:///C:/Users/Suleiman%20Yahaya/Desktop/Iftar%20Party/IMG_2068.JPG");
-    background-repeat:no-repeat;
-    background-size: cover;
-    height: 500px;
-    width: 600px;
-    display:inline-block;
-    margin-top: 0px;
-    margin-left: 600px;
-}
-#design{
-    background-color: white;
-    height: 500px;
-    width: 1100px;
-    margin-top: 50px;
-    margin-bottom: 200px;
-    margin-left: 100px;
-    margin-right: 20px;
-}
-.header h1{
-    font-size: 40px;
-    font-family: lucida calligraphy;
+nav a {
+    text-decoration: none;
+    color: #000000;
     display: inline-block;
-    margin-top: 0px;
-    margin-left: 0px;
-    margin-bottom: 800px;
-    float:left;
-}
-.header h2{
-    color: black;
-    font-size: 20px;
-    font-family: lucida calligraphy;
-    margin-left: 0px;
-    margin-top: 0px;
-}
-.social{
-    display: inline-block;
-    float: center;
-    margin-left: 0px;
-    margin-top: 20px;
-}
-.social a i {
-    color: white;
-    font-size: 1.2rem;
     padding: 30px;
+    font-weight: 600;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
-a:hover i{
-    background-image: linear-gradient(to left white,rgb(2, 2, 47));
-} 
+nav a:hover {
+    opacity: 0.5;
+}
+.heading {
+    margin-top: 50px;
+    padding-left: 8%;
+}
+.heading h1 {
+    margin: 0;
+    font-size:3rem;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.text {
+    display: flex;
+    justify-content: end;
+    margin-top: 30px;
+}
+.text p {
+    width: 60%;
+    margin: 0 25px 0 0;
+    text-align: justify;
+    font-family:lucida calligraphy;
+    font-size: 0.9rem;
+}
+.icons {
+    position: absolute;
+    bottom: 10px;
+    right: 25px;
+}
+.icons a {
+    text-decoration: none;
+    display: inline-block;
+}
+.icons a i {
+    color: #000000;
+    padding: 15px;
+    font-size: 1.2rem;
+}
+.icons a:hover {
+    opacity: 0.5;
+}
+hr{
+margin-bottom: 0px;
+}
