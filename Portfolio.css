@@ -40,10 +40,10 @@ nav a {
     display: inline-block;
     padding: 30px;
     font-weight: 600;
-    font-family: lucida calligraphy;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 nav a:hover {
-    opacity: 0.5;
+    opacity: 0.6;
 }
 .heading {
     margin-top: 50px;
