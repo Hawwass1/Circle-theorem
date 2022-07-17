@@ -63,7 +63,7 @@ nav a:hover {
     width: 60%;
     margin: 0 25px 0 0;
     text-align: justify;
-    font-family:lucida calligraphy;
+    font-family:monospace;
     font-size: 0.9rem;
 }
 .icons {
@@ -78,7 +78,7 @@ nav a:hover {
 .icons a i {
     color: rgb(3, 3, 60);
     padding: 15px;
-    font-size: 1.2rem;
+    font-size: 1.3rem;
 }
 .icons a:hover {
     opacity: 0.5;
