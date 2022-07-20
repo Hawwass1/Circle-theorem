@@ -5,7 +5,7 @@
 body{
     background-color: #dddddd;
     margin: 0;
-    width: 100%;
+    width: 50%;
 }
 .design {
     width: 90%;
@@ -23,6 +23,7 @@ body{
 .image {
     width: 50%;
     height: 100%;
+    clip-path: polygon(50% 0%, 0% 100%, 100% 67%);
 }
 .image img {
     width: 100%;
